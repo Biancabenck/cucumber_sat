@@ -1,0 +1,279 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 509583000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is at the login page",
+            "match": {
+              "location": "step_def.Login.user_is_at_the_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-09T00:04:45.581Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6894920000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_def.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Successful login and verify message",
+        "description": "",
+        "id": "verify-valid-login-(positive-test)--invalid-login-(negative-testing);successful-login-and-verify-message",
+        "after": [
+          {
+            "result": {
+              "duration": 78959000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_def.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 506379000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters a valid username and password",
+            "match": {
+              "location": "step_def.Login.user_enters_a_valid_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1943789000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on login button",
+            "match": {
+              "location": "step_def.Login.user_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 62737000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should be able to verify dashboard text",
+            "match": {
+              "location": "step_def.Login.user_should_be_able_to_verify_dashboard_text()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 469803000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is at the login page",
+            "match": {
+              "location": "step_def.Login.user_is_at_the_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-09T00:04:55.688Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5542474000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_def.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "verify invalid login",
+        "description": "",
+        "id": "verify-valid-login-(positive-test)--invalid-login-(negative-testing);verify-invalid-login;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 94754000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_def.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1307347000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User enters \"user1\" and \"admin123\" and click login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"user1\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"admin123\"",
+                  "offset": 24
+                }
+              ],
+              "location": "step_def.InvalidLogin.user_enters_and_and_click_login(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 61985000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User should be able to verify invalid text",
+            "match": {
+              "location": "step_def.InvalidLogin.user_should_be_able_to_verify_invalid_text()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 467331000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is at the login page",
+            "match": {
+              "location": "step_def.Login.user_is_at_the_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-09T00:05:03.184Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5121679000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_def.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "verify invalid login",
+        "description": "",
+        "id": "verify-valid-login-(positive-test)--invalid-login-(negative-testing);verify-invalid-login;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 74651000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_def.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1672795000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User enters \"Admin\" and \"blackusername\" and click login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Admin\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"blackusername\"",
+                  "offset": 24
+                }
+              ],
+              "location": "step_def.InvalidLogin.user_enters_and_and_click_login(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 61915000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User should be able to verify invalid text",
+            "match": {
+              "location": "step_def.InvalidLogin.user_should_be_able_to_verify_invalid_text()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verify valid login (Positive Test), Invalid login (negative Testing)",
+    "description": "",
+    "id": "verify-valid-login-(positive-test)--invalid-login-(negative-testing)",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/feature/orangeHRM.feature",
+    "tags": []
+  }
+]
